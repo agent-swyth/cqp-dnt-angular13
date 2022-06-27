@@ -1,0 +1,15 @@
+nav{
+    border-bottom: solid 1px grey;
+}
+ul{
+    list-style:none;
+    padding-left: 0px
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
