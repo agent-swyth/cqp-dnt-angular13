@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>second documentation</title>
+        <title>cqp-dnt-angular13 documentation</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,7 @@
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
-            <a href="../" class="navbar-brand">second documentation</a>
+            <a href="../" class="navbar-brand">cqp-dnt-angular13 documentation</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
@@ -80,12 +80,9 @@ import { CEditComponent } from &#x27;./cedit/cedit.component&#x27;;
 import { CIndexComponent } from &#x27;./cindex/cindex.component&#x27;;
 
 const routes: Routes &#x3D; [
-  { path: &#x27;&#x27;, redirectTo: &#x27;index&#x27;, pathMatch: &#x27;full&#x27; },
+  { path: &#x27;&#x27;, component: CIndexComponent },
   {
-    path: &#x27;index&#x27;, component: CIndexComponent
-  },
-  {
-    path: &#x27;add/:cid&#x27;, component: CAddComponent
+    path: &#x27;add&#x27;, component: CAddComponent
   },
   {
     path: &#x27;edit/:cid&#x27;, component: CEditComponent

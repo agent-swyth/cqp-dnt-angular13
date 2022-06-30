@@ -15,7 +15,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
         <nav>
             <ul class="list">
                 <li class="title">
-                    <a href="index.html" data-type="index-link">second documentation</a>
+                    <a href="index.html" data-type="index-link">cqp-dnt-angular13 documentation</a>
                 </li>
 
                 <li class="divider"></li>
@@ -139,7 +139,16 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                         <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-CocktailModule-396b93f9019b7852d6b30ff59cdcecfde2e9db6df87915c6c56df68086dd7d58e0c80c953ad76e379893473091cded526596ddf5aab94694993b2faacfbc387e"' :
                                             'id="xs-components-links-module-CocktailModule-396b93f9019b7852d6b30ff59cdcecfde2e9db6df87915c6c56df68086dd7d58e0c80c953ad76e379893473091cded526596ddf5aab94694993b2faacfbc387e"' }>
                                             <li class="link">
+                                                <a href="components/CAddComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >CAddComponent</a>
+                                            </li>
+                                            <li class="link">
                                                 <a href="components/CDeleteComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >CDeleteComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/CEditComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >CEditComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/CIndexComponent.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >CIndexComponent</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -210,25 +219,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                 </ul>
                 </li>
-                    <li class="chapter">
-                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ? 'data-target="#components-links"' :
-                            'data-target="#xs-components-links"' }>
-                            <span class="icon ion-md-cog"></span>
-                            <span>Components</span>
-                            <span class="icon ion-ios-arrow-down"></span>
-                        </div>
-                        <ul class="links collapse " ${ isNormalMode ? 'id="components-links"' : 'id="xs-components-links"' }>
-                            <li class="link">
-                                <a href="components/CAddComponent.html" data-type="entity-link" >CAddComponent</a>
-                            </li>
-                            <li class="link">
-                                <a href="components/CEditComponent.html" data-type="entity-link" >CEditComponent</a>
-                            </li>
-                            <li class="link">
-                                <a href="components/CIndexComponent.html" data-type="entity-link" >CIndexComponent</a>
-                            </li>
-                        </ul>
-                    </li>
                         <li class="chapter">
                             <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ? 'data-target="#injectables-links"' :
                                 'data-target="#xs-injectables-links"' }>
@@ -283,7 +273,19 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </div>
                         <ul class="links collapse " ${ isNormalMode ? ' id="interfaces-links"' : 'id="xs-interfaces-links"' }>
                             <li class="link">
+                                <a href="interfaces/IApi.html" data-type="entity-link" >IApi</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/ICocktail.html" data-type="entity-link" >ICocktail</a>
+                            </li>
+                            <li class="link">
                                 <a href="interfaces/ICredentials.html" data-type="entity-link" >ICredentials</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/IDataCocktail.html" data-type="entity-link" >IDataCocktail</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/ISingleCocktail.html" data-type="entity-link" >ISingleCocktail</a>
                             </li>
                             <li class="link">
                                 <a href="interfaces/IToken.html" data-type="entity-link" >IToken</a>
