@@ -1,0 +1,19 @@
+.form_container{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.group{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width:270px;
+    margin: 0 auto;
+}
+.form_error{
+    color: red;
+}

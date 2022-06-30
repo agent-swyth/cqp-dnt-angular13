@@ -1,5 +1,7 @@
 nav{
     border-bottom: solid 1px grey;
+    display: flex;
+    justify-content: space-between;
 }
 ul{
     list-style:none;
